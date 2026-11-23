@@ -71,8 +71,7 @@ section {
     line-height: 1.7;
 }
 
-.main-btn,
-.whatsapp-btn {
+.main-btn {
     display: inline-block;
     margin-top: 25px;
     padding: 14px 28px;
@@ -83,12 +82,7 @@ section {
     font-weight: bold;
 }
 
-.whatsapp-btn {
-    background: #168b48;
-}
-
-.main-btn:hover,
-.whatsapp-btn:hover {
+.main-btn:hover {
     opacity: 0.85;
 }
 
@@ -133,6 +127,66 @@ section h2 {
     background: white;
 }
 
+.contact-intro {
+    margin-bottom: 25px;
+}
+
+.contact-form {
+    background: #f5f8ff;
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px #d5dcef;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin: 15px 0 8px;
+    color: #101b50;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #cbd5ee;
+    border-radius: 7px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    background: white;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+    outline: 2px solid royalblue;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    width: 100%;
+    margin-top: 22px;
+    padding: 15px;
+    background: royalblue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #101b50;
+}
+
 footer {
     background: #101b50;
     color: white;
@@ -155,5 +209,9 @@ footer {
 
     #home h3 {
         font-size: 20px;
+    }
+
+    .contact-form {
+        padding: 20px;
     }
 }
